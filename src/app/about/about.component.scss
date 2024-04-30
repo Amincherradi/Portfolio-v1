@@ -1,0 +1,96 @@
+.parent {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    align-items: center;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    min-width: 800px;
+}
+
+.div2, .div4 {
+    text-align: center;
+}
+
+.div2 h1, .div4 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3d535f;
+    margin: 0;
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 81px;
+}
+.div3-column:first-child {
+    flex: 0 0 200px; /* Set a fixed width for the first column */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.div3-column {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.div3-column p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.div3-column img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.div4, .div5 {
+    width: 100%; /* Set width to fill the column */
+}
+
+.div5 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.certificate-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    text-align: center;
+}
+
+.certificate-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.certificate-card p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #3d535f;
+}
